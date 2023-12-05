@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.logo {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+
+nav {
+    background-color: #000000;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-inline-start: 20px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+
+
+.nav {
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border-bottom: solid 2px #60a2ff;
+}
+
+.nav h1 {
+    color: #272727;
+    font-size: 18px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-section {
+    float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(rgba(65, 100, 201, 0.8), rgba(65, 100, 201, 0.8)), url("../image/profile-bg.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.profile-photo {
+    width: 50%;
+    border-radius: 50%;
+    border: solid 3px white;
+}
+
+.profile-name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-detail {
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.profile-follow {
+    background-color: #39b85d;
+    color: white;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.profile-follow:hover {
+    background-color: white;
+    color: #4c99b8;
+    transition: all 0.3s;
+}
+
+/* Style For Detail Section */
+.detail-section {
+    float: left;
+    width: 75%;
+    padding-top: 30px;
+}
+
+/* Card Style */
+.card {
+    background-color: white;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #2d2d2d;
+    border-bottom: solid 2px #dbdbdb;
+}
+
+.card-body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
